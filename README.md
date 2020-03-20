@@ -1,4 +1,4 @@
-# A Systematic Comparison of Loss Functions for True End-to-End Speaker Embedding
+# A Comparison of Metric Learning Loss Functions for True End-to-End Speaker Verification
 
 This repository contains the best model shown in the paper trained with Additive Angular Margin loss, as well as detailed steps to reproduce the results.
 
