@@ -1,6 +1,6 @@
-# A Comparison of Metric Learning Loss Functions for True End-to-End Speaker Verification
+# A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification
 
-This is a repository to host the best model obtained in our paper "A Comparison of Metric Learning Loss Functions for True End-to-End Speaker Verification". It contains the model trained with Additive Angular Margin loss, as well as detailed steps to reproduce the results.
+This is a repository to host the best model obtained in our paper "A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification". It contains the model trained with Additive Angular Margin loss, as well as detailed steps to reproduce the results.
 
 If you use this in your work, please cite our paper (BibTeX coming soon!).
 
