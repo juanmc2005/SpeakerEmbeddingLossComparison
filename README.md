@@ -18,6 +18,8 @@ Note that you may need to change parameters based on your setup.
 
 ## Evaluation
 
+We provide a step-by-step guide on reproducing our equal error rates alongside their 95% confidence intervals. The guide first evaluates the pretrained model using raw cosine distances, and then applying adaptive s-norm score normalization.
+
 If you want to reproduce our results, check out [this notebook](https://github.com/juanmc2005/SpeakerEmbeddingLossComparison/blob/master/reproduce.ipynb)
 
 ## Fine-tuning
