@@ -1,9 +1,35 @@
 # A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification
 
-This is a repository to host the best model obtained in our paper "A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification". It contains the model trained with Additive Angular Margin loss, as well as detailed steps to reproduce the results.
+This is the companion repository of the paper "A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification". It contains our best model trained with additive angular margin loss.
 
-If you use this in your work, please cite our paper (BibTeX coming soon!).
+This model is dependant on the [pyannote-audio toolkit](https://github.com/pyannote/pyannote-audio), so make sure you install it if you plan to use our pretrained model.
 
-In order to use the model for inference or fine-tuning, you'll need to install [pyannote-audio](https://github.com/pyannote/pyannote-audio) (optionally download and configure MUSAN as well).
+## Training
 
-If you want to reproduce our results, you will also need to install [pyannote's VoxCeleb database plugin](https://github.com/pyannote/pyannote-db-voxceleb).
+You can train our model from scratch using the configuration file `config.yml` that we provide. All you need to do is run the following command in your terminal:
+
+```console
+$ pyannote-audio emb train --parallel=10 --gpu --to=1000 <config_file_dir> VoxCeleb.SpeakerVerification.VoxCeleb2
+```
+
+Note that you may need to change parameters based on your setup.
+
+## Evaluation
+
+If you want to reproduce our results, check out [this notebook](https://github.com/juanmc2005/SpeakerEmbeddingLossComparison/blob/master/reproduce.ipynb)
+
+## Fine-tuning
+
+You can fine-tune our model to your dataset with the following command:
+
+```console
+$ pyannote-audio emb train --pretrained models/AAM/train/VoxCeleb.SpeakerVerification.VoxCeleb2.train/weights/0560.pt --subset=train --gpu --to=1000 <your_exp_dir> <your_pyannote_protocol>
+```
+
+## Citation
+
+If you use this in your work, please cite our paper:
+
+```bibtex
+BibTeX coming soon!
+```
