@@ -9,7 +9,9 @@ This model is dependant on the [pyannote-audio toolkit](https://github.com/pyann
 You can train our model from scratch using the configuration file `config.yml` that we provide. All you need to do is run the following command in your terminal:
 
 ```console
-$ pyannote-audio emb train --parallel=10 --gpu --to=1000 <config_file_dir> VoxCeleb.SpeakerVerification.VoxCeleb2
+$ export EXP=models/AAM # Replace with the new path to config.yml
+$ export PROTOCOL=VoxCeleb.SpeakerVerification.VoxCeleb2
+$ pyannote-audio emb train --parallel=10 --gpu --to=1000 $EXP $PROTOCOL 
 ```
 
 Note that you may need to change parameters based on your setup.
@@ -23,7 +25,10 @@ If you want to reproduce our results, check out [this notebook](https://github.c
 You can fine-tune our model to your dataset with the following command:
 
 ```console
-$ pyannote-audio emb train --pretrained models/AAM/train/VoxCeleb.SpeakerVerification.VoxCeleb2.train/weights/0560.pt --subset=train --gpu --to=1000 <your_exp_dir> <your_pyannote_protocol>
+$ export WEIGHTS=models/AAM/train/VoxCeleb.SpeakerVerification.VoxCeleb2.train/weights/0560.pt
+$ export EXP=<your_experiment_directory>
+$ export PROTOCOL=<your_pyannote_database_protocol>
+$ pyannote-audio emb train --pretrained $WEIGHTS --subset=train --gpu --to=1000 $EXP $PROTOCOL
 ```
 
 ## Citation
