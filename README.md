@@ -1,8 +1,14 @@
 # A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification
 
-This is the companion repository of the paper "A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification". It contains our best model trained with additive angular margin loss.
+This is the companion repository for the paper [A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification](https://arxiv.org/abs/2003.14021). It hosts our best model trained with additive angular margin loss, and contains instructions for reproducing our results and using the model.
 
 The project depends on the [pyannote-audio](https://github.com/pyannote/pyannote-audio) toolkit, so make sure you install it before running any code.
+
+## Architecture
+
+![Architecture of the model](images/architecture.png?raw=true "Architecture")
+
+The architecture of our model consists of [SincNet](https://arxiv.org/abs/1808.00158) for feature extraction followed by [x-vector](https://www.danielpovey.com/files/2018_icassp_xvectors.pdf).
 
 ## Training
 
