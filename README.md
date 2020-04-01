@@ -59,7 +59,7 @@ distance = np.mean(cdist(emb1, emb2, metric='cosine'))
 ```
 
 You can also replace the call to `torch.hub.load` with a pyannote `Pretrained` instance pointing to the model in this repo.
-Note that this also allows for customized fine-tuning as well.
+Note that this allows for customized fine-tuning as well.
 
 ## Citation
 
