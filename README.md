@@ -66,7 +66,7 @@ Note that this allows for customized fine-tuning as well.
 If our work has been useful to you, please cite our paper:
 
 ```bibtex
-@misc{coria2020comparison,
+@article{coria2020comparison,
     title={{A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification}},
     author={Juan M. Coria and Hervé Bredin and Sahar Ghannay and Sophie Rosset},
     year={2020},
