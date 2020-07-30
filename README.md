@@ -74,7 +74,7 @@ print(f'Embeddings of {model.sliding_window.duration:g}s duration and of dimensi
 
 This project depends on the [pyannote-audio](https://github.com/pyannote/pyannote-audio) toolkit, so make sure you install it before running any code.
 
-Under normal circumstances, everything should work with the newest version of pyannote. However, given that the framework is constantly evolving, some compatibility issued may appear. To make sure these don't happen, you can install the version at [this commit](https://github.com/pyannote/pyannote-audio/commit/562b74e4e2c7c2e97ad8eaabd1c95015c7e41e16) from the `develop` branch.
+Under normal circumstances, everything should work with the newest version of pyannote. However, given that pyannote is constantly evolving, some compatibility issues may appear. To make sure these don't happen, you can install the version at [this commit](https://github.com/pyannote/pyannote-audio/commit/562b74e4e2c7c2e97ad8eaabd1c95015c7e41e16) from the `develop` branch.
 
 ## Citation
 
