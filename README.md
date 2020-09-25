@@ -1,12 +1,10 @@
 # A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification
 
-This is the companion repository for the paper [A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification](https://arxiv.org/abs/2003.14021). It hosts our best model trained with additive angular margin loss, and contains instructions for reproducing our results and using the model.
-
-This paper has been accepted at the [SLSP 2020](https://irdta.eu/slsp2020/) conference! New links and BibTeX will be added upon publication.
+This is the companion repository for the paper [A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification](https://arxiv.org/abs/2003.14021), published at the [SLSP 2020](https://irdta.eu/slsp2020/) conference. It hosts our best model trained with additive angular margin loss, and contains instructions for reproducing our results and using the model.
 
 ## Architecture
 
-![Architecture of the model](images/architecture.png?raw=true "Architecture")
+![Architecture](images/architecture.png?raw=true "Architecture")
 
 The architecture of our model consists of [SincNet](https://arxiv.org/abs/1808.00158) for feature extraction followed by [x-vector](https://www.danielpovey.com/files/2018_icassp_xvectors.pdf).
 
@@ -81,12 +79,20 @@ Under normal circumstances, everything should work with the newest version of py
 If our work has been useful to you, please cite our paper:
 
 ```bibtex
-@article{coria2020comparison,
-    title={{A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification}},
-    author={Juan M. Coria and Hervé Bredin and Sahar Ghannay and Sophie Rosset},
-    year={2020},
-    eprint={2003.14021},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@InProceedings{10.1007/978-3-030-59430-5_11,
+	author="Coria, Juan M.
+	and Bredin, Herv{\'e}
+	and Ghannay, Sahar
+	and Rosset, Sophie",
+	editor="Espinosa-Anke, Luis
+	and Mart{\'i}n-Vide, Carlos
+	and Spasi{\'{c}}, Irena",
+	title="{A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification}",
+	booktitle="Statistical Language and Speech Processing",
+	year="2020",
+	publisher="Springer International Publishing",
+	address="Cham",
+	pages="137--148",
+	isbn="978-3-030-59430-5"
 }
 ```
