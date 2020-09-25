@@ -80,19 +80,19 @@ If our work has been useful to you, please cite our paper:
 
 ```bibtex
 @InProceedings{10.1007/978-3-030-59430-5_11,
-	author="Coria, Juan M.
-	and Bredin, Herv{\'e}
-	and Ghannay, Sahar
-	and Rosset, Sophie",
-	editor="Espinosa-Anke, Luis
-	and Mart{\'i}n-Vide, Carlos
-	and Spasi{\'{c}}, Irena",
-	title="{A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification}",
-	booktitle="Statistical Language and Speech Processing",
-	year="2020",
-	publisher="Springer International Publishing",
-	address="Cham",
-	pages="137--148",
-	isbn="978-3-030-59430-5"
+    author="Coria, Juan M.
+    and Bredin, Herv{\'e}
+    and Ghannay, Sahar
+    and Rosset, Sophie",
+    editor="Espinosa-Anke, Luis
+    and Mart{\'i}n-Vide, Carlos
+    and Spasi{\'{c}}, Irena",
+    title="{A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification}",
+    booktitle="Statistical Language and Speech Processing",
+    year="2020",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="137--148",
+    isbn="978-3-030-59430-5"
 }
 ```
