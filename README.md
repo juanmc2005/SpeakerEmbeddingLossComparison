@@ -1,6 +1,6 @@
 # A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification
 
-This is the companion repository for the paper [A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification](https://arxiv.org/abs/2003.14021), published at the [SLSP 2020](https://irdta.eu/slsp2020/) conference. It hosts our best model trained with additive angular margin loss, and contains instructions for reproducing our results and using the model.
+This is the companion repository for the paper [A Comparison of Metric Learning Loss Functions for End-to-End Speaker Verification](https://link.springer.com/chapter/10.1007/978-3-030-59430-5_11), published at the [SLSP 2020](https://irdta.eu/slsp2020/) conference. It hosts our best model trained with additive angular margin loss, and contains instructions for reproducing our results and using the model.
 
 ## Architecture
 
